@@ -1,7 +1,4 @@
-# mergesortedarrays
-Merge two sorted arrays
-
-    
+# Merge two sorted arrays
 
 ## Question:
 Two sorted arrays in ascending order. Create a merged array with both, sorted in ascending order. Repeated elements are allowed.
@@ -30,3 +27,6 @@ arr2 = [1,2,5,6]
 
 Output --> [1,1,2,3,4,5,5,6,6]
 
+## Execution
+
+Clone the repo and change directory to root of repo before running `python main.py`
