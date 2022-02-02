@@ -10,10 +10,10 @@ Loop through each array and add elements into another array, then sort it at the
 
 ### Optimal solution
 
-Parse one array, loop through each element
+Parse one array, loop through each element, using a three pointer approach
 See if that element already exists in the second array.
 If it exists, then push it in the first index of merged one.
-If not, then push both the elements it to the index and index + 1 positions in the merged one.
+If not, then push both the elements it to the index and index + 1 positions in the merged one - increment pointers accordingly
 Then repeat the scanning for remainder of the elements in arr1 and arr2
 
 ## Examples:
